@@ -1,4 +1,4 @@
-# Tip-Tax-Total-JS
+# Tip-Total-JS-CSS_HTML
 
 This is a code sandbox project that I created to calculate tip between a certain party.
 
