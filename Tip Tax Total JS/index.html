@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="JS-tip.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Tip Calculator</h1>
+      <div class="wrapper">
+        <p>Bill Amount <b>:</b></p>
+
+        <input type="text" id="amount" placeholder="Amount to be paid" />
+
+        <p>Number of people sharing the bill <b>:</b></p>
+
+        <input type="text" id="persons" placeholder="Enter number of people" />
+
+        <p>How was our service ?</p>
+
+        <select id="services">
+          <option selected disabled hidden>
+            Select
+          </option>
+          <option value="0.50">50% - I Love You</option>
+          <option value="0.25">25% - Outstanding</option>
+          <option value="0.20">20% - Excellent</option>
+          <option value="0.15">15% - Good</option>
+          <option value="0.10">10% - Bad</option>
+          <option value="0.05">5% - Terrible</option>
+          <option value="0.00">0% - Dog Water</option>
+        </select>
+        <button id="calculate">Finalize</button>
+      </div>
+
+      <div class="tip">
+        <p>Tip Amount:</p>
+        $<span id="total">0</span>
+        <span id="each">each</span>
+      </div>
+    </div>
+  </body>
+</html>

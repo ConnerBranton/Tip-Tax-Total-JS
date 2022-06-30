@@ -1,0 +1,86 @@
+body {
+  background-color: #000000a9;
+  font-family: "Raleway", sans-serif;
+  background: url("lsu tiger.jfif") center;
+}
+
+.container {
+  width: 350px;
+  height: 500px;
+  background-color: rgb(223, 223, 223);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 45px;
+  border: 3px solid #000000;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  width: 250px;
+  transform: translateX(-50%);
+  background-color: #9639cc;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  border-top: 3px solid #000000;
+  border-left: 3px solid #000000;
+  border-right: 3px solid #000000;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+input,
+select {
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #e6d117;
+  padding: 10px;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid #9639cc;
+  outline: none;
+}
+
+select {
+  width: 88% !important;
+}
+
+button {
+  margin: 20px auto;
+  width: 125px;
+  height: 50px;
+  background-color: #aa48e2;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.tip {
+  margin: -25px auto;
+  width: 175px;
+  height: 115px;
+  background-color: #aa48e2;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border-radius: 30px;
+  display: none;
+  border: 3px solid #000000;
+}
